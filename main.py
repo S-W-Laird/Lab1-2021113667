@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QApplication, QVBoxLayout, QHBoxLayout, QWidget, QPu
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
 import sys
+# Add in B2
 
 class MyApp(QWidget):
     def __init__(self):
