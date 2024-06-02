@@ -8,6 +8,7 @@ import re
 # Add in B1
 # Add in C2
 
+# Add in B2
 class GraphHandler:
     def __init__(self):
         self.G = None
