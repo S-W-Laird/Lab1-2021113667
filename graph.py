@@ -6,6 +6,8 @@ import re
 # Add in R4
 # Add in R5
 # Add in B1
+# Add in C2
+
 class GraphHandler:
     def __init__(self):
         self.G = None
