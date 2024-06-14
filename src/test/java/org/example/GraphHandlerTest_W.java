@@ -5,11 +5,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class GraphHandlerTest_W {
-  private GraphHandler graphHandler = new GraphHandler();
+  private GraphHandler graphHandler;
 
   @BeforeEach
   public void setUp() {
-    graphHandler.createGraph("Hi, this is a test and this test is a simple test");
+    graphHandler = new GraphHandler();
+    String inputText = "Hi, this is a small test and this test is a simple test";
+    graphHandler.createGraph(inputText);
   }
 
   @Test

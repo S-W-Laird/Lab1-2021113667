@@ -213,6 +213,7 @@ public class GraphHandler {
         if (alt < distances.get(neighbor.getKey())) {
           distances.put(neighbor.getKey(), alt);
           previous.put(neighbor.getKey(), smallest);
+          nodes.remove(neighbor.getKey());
           nodes.add(neighbor.getKey());
         }
       }
@@ -220,6 +221,7 @@ public class GraphHandler {
 
     return "No path from " + word1 + " to " + word2 + "!";
   }
+
 
   /**
    * Performs a random walk starting from a randomly selected node in the graph.

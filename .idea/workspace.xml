@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b422999d-43fa-4f30-a58b-2066bf31dc5b" name="Changes" comment="lab1 done">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390437711.dot" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390437711.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390445352.dot" afterDir="false" />
@@ -15,6 +16,8 @@
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390708612.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390718351.dot" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graph/graph_1718390718351.png" afterDir="false" />
+=======
+>>>>>>> Lab3w
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest_W.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" afterDir="false" />
@@ -61,7 +64,11 @@
     "Application.MyApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.GraphHandlerTest.executor": "Run",
+<<<<<<< HEAD
     "JUnit.GraphHandlerTest_W.executor": "Coverage",
+=======
+    "JUnit.GraphHandlerTest_W.executor": "Run",
+>>>>>>> Lab3w
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -69,7 +76,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+<<<<<<< HEAD
     "git-widget-placeholder": "master",
+=======
+    "git-widget-placeholder": "Lab3w",
+>>>>>>> Lab3w
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/a3xE/软件工程/lab3/code/graph/checkstyle.xml",
     "node.js.detected.package.eslint": "true",
@@ -165,6 +176,21 @@
     <MESSAGE value="lab1 done" />
     <option name="LAST_COMMIT_MESSAGE" value="lab1 done" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest_W.java</url>
+          <line>10</line>
+          <properties class="org.example.GraphHandlerTest_W" method="setUp">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
@@ -173,7 +199,11 @@
     <SUITE FILE_PATH="coverage/graph$MyApp.ic" NAME="MyApp Coverage Results" MODIFIED="1718374843747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.*</FILTER>
     </SUITE>
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/graph$GraphHandlerTest_W.ic" NAME="GraphHandlerTest_W Coverage Results" MODIFIED="1718392756896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+=======
+    <SUITE FILE_PATH="coverage/graph$GraphHandlerTest_W.ic" NAME="GraphHandlerTest_W Coverage Results" MODIFIED="1718395025364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+>>>>>>> Lab3w
       <FILTER>org.example.*</FILTER>
     </SUITE>
   </component>
