@@ -15,9 +15,21 @@ class GraphHandlerTest {
   }
 
   @Test
+  public void testQueryBridgeWordsBothWordsNull() {
+    String result = graphHandler.queryBridgeWords("this", null);
+    assertEquals("Input words cannot be null!", result);
+  }
+
+  @Test
   public void testQueryBridgeWordsBothWordsNotInGraph() {
     String result = graphHandler.queryBridgeWords("not", "exist");
     assertEquals("No \"not\" and \"exist\" in the graph!", result);
+  }
+
+  @Test
+  public void testQueryBridgeWordsFirstWordNotInGraph() {
+    String result = graphHandler.queryBridgeWords("aaa", "a");
+    assertEquals("No \"aaa\" in the graph!", result);
   }
 
   @Test

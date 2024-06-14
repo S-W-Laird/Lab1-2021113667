@@ -85,6 +85,10 @@ public class GraphHandler {
    * @return a string describing the bridge words between word1 and word2
    */
   public String queryBridgeWords(String word1, String word2) {
+    if (word1 == null || word2 == null) {
+      return "Input words cannot be null!";
+    }
+
     if (!graph.containsKey(word1) && !graph.containsKey(word2)) {
       return "No \"" + word1 + "\" and \"" + word2 + "\" in the graph!";
     } else if (!graph.containsKey(word1)) {
@@ -165,9 +169,9 @@ public class GraphHandler {
     if (!graph.containsKey(word1) && !graph.containsKey(word2)) {
       return "No \"" + word1 + "\" and \"" + word2 + "\" in the graph!";
     } else if (!graph.containsKey(word1)) {
-      return "No " + word1 + " in the graph!";
+      return "No \"" + word1 + "\" in the graph!";
     } else if (!graph.containsKey(word2)) {
-      return "No " + word2 + " in the graph!";
+      return "No \"" + word2 + "\" in the graph!";
     }
 
     Map<String, Double> distances = new HashMap<>();
@@ -185,8 +189,12 @@ public class GraphHandler {
 
     while (!nodes.isEmpty()) {
       String smallest = nodes.poll();
+      if (distances.get(smallest) == Double.MAX_VALUE) {
+        return "No path from " + word1 + " to " + word2 + "!";
+      }
       if (smallest.equals(word2)) {
         List<String> path = new ArrayList<>();
+        double pathLength = distances.get(smallest);  // 获取正确的路径长度
         while (previous.containsKey(smallest)) {
           path.add(smallest);
           String prev = previous.get(smallest);
@@ -196,13 +204,8 @@ public class GraphHandler {
         path.add(word1);
         Collections.reverse(path);
         shortestPathNodes = path;
-        double pathLength = distances.get(smallest);
         return "The shortest path from " + word1 + " to " + word2 + " is: "
                 + String.join(" -> ", path) + " with total weight " + pathLength;
-      }
-
-      if (distances.get(smallest) == Double.MAX_VALUE) {
-        break;
       }
 
       for (Map.Entry<String, Integer> neighbor : graph.get(smallest).entrySet()) {
