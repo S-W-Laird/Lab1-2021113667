@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b422999d-43fa-4f30-a58b-2066bf31dc5b" name="Changes" comment="lab1 done">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390437711.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390437711.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390445352.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390445352.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390702460.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390702460.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390708612.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390708612.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390718351.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/graph_1718390718351.png" afterDir="false" />
-=======
->>>>>>> Lab3w
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest_W.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" afterDir="false" />
