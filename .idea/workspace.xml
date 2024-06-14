@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b422999d-43fa-4f30-a58b-2066bf31dc5b" name="Changes" comment="lab1 done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest_W.java" afterDir="false" />
+    <list default="true" id="05967402-64e9-4d7d-adcf-2a5f8e7a1c8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GraphHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GraphHandlerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,42 +42,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.GraphExample.executor": "Run",
-    "Application.GraphvizExample.executor": "Run",
     "Application.MyApp.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
     "JUnit.GraphHandlerTest.executor": "Run",
-<<<<<<< HEAD
-    "JUnit.GraphHandlerTest_W.executor": "Coverage",
-=======
     "JUnit.GraphHandlerTest_W.executor": "Run",
->>>>>>> Lab3w
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-<<<<<<< HEAD
     "git-widget-placeholder": "master",
-=======
-    "git-widget-placeholder": "Lab3w",
->>>>>>> Lab3w
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a3xE/软件工程/lab3/code/graph/checkstyle.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a3xE/软件工程/lab3/code/graph/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.38275862",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -130,14 +96,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -186,11 +144,7 @@
     <SUITE FILE_PATH="coverage/graph$MyApp.ic" NAME="MyApp Coverage Results" MODIFIED="1718374843747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-<<<<<<< HEAD
-    <SUITE FILE_PATH="coverage/graph$GraphHandlerTest_W.ic" NAME="GraphHandlerTest_W Coverage Results" MODIFIED="1718392756896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-=======
     <SUITE FILE_PATH="coverage/graph$GraphHandlerTest_W.ic" NAME="GraphHandlerTest_W Coverage Results" MODIFIED="1718395025364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
->>>>>>> Lab3w
       <FILTER>org.example.*</FILTER>
     </SUITE>
   </component>
